@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/Smile.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.h_t1 {
+    position: relative;
+    top: 150px;
+    font-size: xxx-large;
+    font-weight: bolder;
+    text-align: center;
+    color: rgba(245, 152, 170, 1);
+}
+
+.h_t2 {
+    position: relative;
+    top: 180px;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#home button {
+    color: rgba(245, 152, 170, 1);
+    border: 2px solid rgba(245, 152, 170, 1);
+    background-color: rgba(255, 235, 240, 1);
+    position: relative;
+    top: 200px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+
+#home button:hover {
+    color: white;
+    background-color: rgba(245, 152, 170, 1);
+    border: rgba(255, 235, 240, 1);
+}
+
+#home button:focus {
+    color: white;
+    background-color: rgba(245, 152, 170, 1);
+    border: rgba(255, 235, 240, 1);
+}
